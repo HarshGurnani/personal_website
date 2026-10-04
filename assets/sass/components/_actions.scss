@@ -18,6 +18,11 @@
 			vertical-align: middle;
 		}
 
+		&.skills {
+			@include vendor('flex-wrap', 'wrap');
+			row-gap: 1rem;
+		}
+
 		&.special {
 			@include vendor('justify-content', 'center');
 			width: 100%;
